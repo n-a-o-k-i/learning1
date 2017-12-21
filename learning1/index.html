@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project1</title>
+        <link rel="stylesheet" href="css/1.css">
+        <link rel="stylesheet" href="css/slider-pro.min.css"/>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.sliderPro.min.js"></script>
+    </head>
+
+    <body>
+        <body background="img/ia.jpg">
+        <header>
+            <div class="header-logo">Progate</div>
+            <div class="button2">
+                <input type="image" src="img/button2.gif" alt="送信する">
+            </div>
+        </header>
+
+        <div class="main">
+            <div class="introduce">
+                <h2>No book on the bookshelf</h2>
+                <h3>本棚に本を入れない体験を</h3>
+            </div>
+
+            <div class="slider-pro" id="slider1">
+                <div class="sp-slides">
+                    <div class="sp-slide">
+                        <img class="sp-image"src="img/image01.jpg">
+                    </div>
+                    <div class="sp-slide">
+                        <img class="sp-image"src="img/image02.jpg">
+                    </div>
+                    <div class="sp-slide">
+                        <img class="sp-image"src="img/image03.jpg">
+                    </div>
+                    <div class="sp-slide">
+                        <img class="sp-image"src="img/image04.jpg">
+                    </div>
+                    <div class="sp-slide">
+                        <img class="sp-image"src="img/image05.jpg">
+                    </div>
+                    <div class="sp-slide">
+                        <img class="sp-image"src="img/image06.jpg">
+                    </div>
+                </div>
+            </div>
+
+        <script>
+            $(document).ready(function(){
+                $( '#slider1' ).sliderPro({
+            width:"500px",
+            centerImage:true,
+            slideDistance:10,
+            visibleSize:"auto",
+            buttons:true,
+                });
+            });
+        </script>
+
+        <div class="button1">
+            <input type="image" src="img/button1.gif" alt="送信する">
+            <p>推しがかわいいのはあたりまえ</p>
+        </div>
+
+        <div class="main-2">
+            <main-image1>
+                <img class="main-image1"src="img/image08.jpg">
+            </main-image1>
+        </div>
+
+        <div class="main-3">
+            <h2>「本屋」と「本棚」があなたのすぐそばに</h2>
+            <h3>～新しい本との出会いを～</h3>
+            <div class="contents">
+                <div class="contents-item1">
+                    <div class="contents-item1">
+                        <img src="img/image01.jpg" width="220px" height="150px">
+                    </div>
+                    <div class="contents-item1">
+                        <img src="img/image02.jpg" width="220px" height="150px">
+                    </div>
+                    <div class="contents-item1">
+                        <img src="img/image03.jpg" width="220px" height="150px">
+                    </div>
+                </div>
+
+                <div class="contents2">
+                    <div class="contents2-item">
+                        <div class="contents2-img"><img src="img/red.jpg" alt=""></div>
+                        <div class="contents2-text">これは赤やね</div>
+                    </div>
+                    <div class="contents2-item">
+                        <div class="contents2-img"><img src="img/yellow.jpg" alt=""></div>
+                        <div class="contents2-text">これは黄色やね</div>
+                    </div>
+                    <div class="contents2-item">
+                        <div class="contents2-img"><img src="img/blue.jpg" alt=""></div>
+                        <div class="contents2-text">これは青やね</div>
+                    </div>
+                    <div class="contents2-item">
+                        <div class="contents2-img"><img src="img/skyblue.jpg" alt=""></div>
+                        <div class="contents2-text">これは水色やね</div>
+                    </div>
+                </div>
+
+                </div>
+            <h4>便利な機能であなたをサポート</h4>
+        </div>
+
+        <footer>
+            <img class="footer-img" src="img/green.jpg">
+        </footer>
+
+        </div>
+  </body>
